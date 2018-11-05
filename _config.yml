@@ -161,9 +161,9 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-#social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+social:
+  GitHub: https://github.com/luchenqun || github
+  E-Mail: mailto:luchenqun@qq.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -176,7 +176,7 @@ site_state: true
 
 social_icons:
   enable: true
-  icons_only: false
+  icons_only: true
   transition: false
   # Dependencies: exturl: true in Tags Settings section below.
   # To encrypt links above use https://www.base64encode.org
@@ -248,7 +248,7 @@ sidebar:
   #display: remove
 
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
-  offset: 12
+  offset: 8
 
   # Back to top in sidebar (only for Pisces | Gemini).
   b2t: false
@@ -663,7 +663,7 @@ firestore:
 # Show Views/Visitors of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
@@ -1014,3 +1014,8 @@ vendors:
 css: css
 js: js
 images: images
+
+# Online contact
+daovoice: false
+daovoice_app_id: a00afc36
+user_id: "NO_89757" # 必填: 该用户在您系统上的唯一ID

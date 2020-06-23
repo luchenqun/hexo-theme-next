@@ -52,17 +52,11 @@
 {% endif %}
 
 {% if theme.footer.theme.enable %}
-  <div class="theme-info">{#
-  #}{{ __('footer.theme') }} – {#
-  #}<a class="theme-link" target="_blank"{{ nofollow }} href="https://theme-next.org">{#
-    #}NexT.{{ theme.scheme }}{#
-  #}</a>{% if theme.footer.theme.version %} v{{ version }}{% endif %}{#
-#}</div>
-<div class=BbeiAn-info">
+<span class=BbeiAn-info">
   {{ __('粤ICP备') }} -
   <a href="http://beian.miit.gov.cn/">18032994号</a>
   </a>
-</div>
+</span>
 {% endif %}
 
 {% if theme.footer.custom_text %}
